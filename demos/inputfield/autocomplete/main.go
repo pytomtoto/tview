@@ -3,8 +3,8 @@ package main
 import (
 	"strings"
 
-	"github.com/gdamore/tcell/v2"
-	"github.com/rivo/tview"
+	"github.com/pytomtoto/tcell/v2"
+	"github.com/pytomtoto/tview"
 )
 
 // 1,000 most common English words.

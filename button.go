@@ -1,12 +1,12 @@
 package tview
 
 import (
-	"github.com/gdamore/tcell/v2"
+	"github.com/pytomtoto/tcell/v2"
 )
 
 // Button is labeled box that triggers an action when selected.
 //
-// See https://github.com/rivo/tview/wiki/Button for an example.
+// See https://github.com/pytomtoto/tview/wiki/Button for an example.
 type Button struct {
 	*Box
 

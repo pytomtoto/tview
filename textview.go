@@ -8,9 +8,9 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"github.com/gdamore/tcell/v2"
 	colorful "github.com/lucasb-eyer/go-colorful"
 	runewidth "github.com/mattn/go-runewidth"
+	"github.com/pytomtoto/tcell/v2"
 	"github.com/rivo/uniseg"
 )
 
@@ -127,7 +127,7 @@ func (w TextViewWriter) HasFocus() bool {
 // The ScrollToHighlight() function can be used to jump to the currently
 // highlighted region once when the text view is drawn the next time.
 //
-// See https://github.com/rivo/tview/wiki/TextView for an example.
+// See https://github.com/pytomtoto/tview/wiki/TextView for an example.
 type TextView struct {
 	sync.Mutex
 	*Box

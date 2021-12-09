@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gdamore/tcell/v2"
-	"github.com/rivo/tview"
+	"github.com/pytomtoto/tcell/v2"
+	"github.com/pytomtoto/tview"
 )
 
 const logo = `

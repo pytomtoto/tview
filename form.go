@@ -1,7 +1,7 @@
 package tview
 
 import (
-	"github.com/gdamore/tcell/v2"
+	"github.com/pytomtoto/tcell/v2"
 )
 
 // DefaultFormFieldWidth is the default field screen width of form elements
@@ -38,7 +38,7 @@ type FormItem interface {
 // Checkbox. These elements can be optionally followed by one or more buttons
 // for which you can define form-wide actions (e.g. Save, Clear, Cancel).
 //
-// See https://github.com/rivo/tview/wiki/Form for an example.
+// See https://github.com/pytomtoto/tview/wiki/Form for an example.
 type Form struct {
 	*Box
 

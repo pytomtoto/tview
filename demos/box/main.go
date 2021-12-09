@@ -2,8 +2,8 @@
 package main
 
 import (
-	"github.com/gdamore/tcell/v2"
-	"github.com/rivo/tview"
+	"github.com/pytomtoto/tcell/v2"
+	"github.com/pytomtoto/tview"
 )
 
 func main() {

@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/gdamore/tcell/v2"
 	runewidth "github.com/mattn/go-runewidth"
+	"github.com/pytomtoto/tcell/v2"
 	"github.com/rivo/uniseg"
 )
 

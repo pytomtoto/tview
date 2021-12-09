@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gdamore/tcell/v2"
+	"github.com/pytomtoto/tcell/v2"
 )
 
 // listItem represents one item in a List.
@@ -17,7 +17,7 @@ type listItem struct {
 
 // List displays rows of items, each of which can be selected.
 //
-// See https://github.com/rivo/tview/wiki/List for an example.
+// See https://github.com/pytomtoto/tview/wiki/List for an example.
 type List struct {
 	*Box
 

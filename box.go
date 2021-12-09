@@ -1,7 +1,7 @@
 package tview
 
 import (
-	"github.com/gdamore/tcell/v2"
+	"github.com/pytomtoto/tcell/v2"
 )
 
 // Box implements the Primitive interface with an empty background and optional
@@ -12,7 +12,7 @@ import (
 //
 // Box provides a number of utility functions available to all primitives.
 //
-// See https://github.com/rivo/tview/wiki/Box for an example.
+// See https://github.com/pytomtoto/tview/wiki/Box for an example.
 type Box struct {
 	// The position of the rect.
 	x, y, width, height int

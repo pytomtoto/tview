@@ -3,8 +3,8 @@ package tview
 import (
 	"sort"
 
-	"github.com/gdamore/tcell/v2"
 	colorful "github.com/lucasb-eyer/go-colorful"
+	"github.com/pytomtoto/tcell/v2"
 )
 
 // TableCell represents one cell inside a Table. You can instantiate this type
@@ -422,7 +422,7 @@ func (t *tableDefaultContent) GetColumnCount() int {
 //
 // Use SetInputCapture() to override or modify keyboard input.
 //
-// See https://github.com/rivo/tview/wiki/Table for an example.
+// See https://github.com/pytomtoto/tview/wiki/Table for an example.
 type Table struct {
 	*Box
 

@@ -1,7 +1,7 @@
 package tview
 
 import (
-	"github.com/gdamore/tcell/v2"
+	"github.com/pytomtoto/tcell/v2"
 )
 
 // Tree navigation events.
@@ -268,7 +268,7 @@ func (n *TreeNode) GetLevel() int {
 // using SetPrefixes() for different levels, for example to display hierarchical
 // bullet point lists.
 //
-// See https://github.com/rivo/tview/wiki/TreeView for an example.
+// See https://github.com/pytomtoto/tview/wiki/TreeView for an example.
 type TreeView struct {
 	*Box
 
